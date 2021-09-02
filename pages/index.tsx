@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+import { Button } from '../components/Button'
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -25,8 +27,8 @@ const Home: NextPage = () => {
           <div className={styles.headerActivity}>Activity</div>
           <div className={styles.headerHowItWorks}>How it works</div>
           <div className={styles.headerCommunuty}>Communuty</div>
-          <div className={styles.headerCreate}>createボタン</div>
-          <div className={styles.headerConnectWallet}>Wallet接続</div>
+          <Button title="createボタン" />
+          <Button title="ウォレットに接続" />
         </div>
       </header>
 
