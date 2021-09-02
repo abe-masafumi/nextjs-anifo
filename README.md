@@ -49,3 +49,14 @@ disable：無効化（コメントアウト等）
 remove：削除（ファイル）
 upgrade：バージョンアップ
 revert：変更取り消し
+
+# chacra-ui のインストール
+
+> ターミナルで実行  
+> `yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4`
+> `import { Box } from "@chakra-ui/react"`
+
+# hacra-ui icon のインストール
+
+`yarn add @chakra-ui/icons`
+`import { StarIcon } from '@chakra-ui/icons'`
