@@ -34,4 +34,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 # 使った環境構築
+
 https://github.com/abe-masafumi/NEXT.JS-Environment2-
+
+# コミットメッセージの頭文字
+
+fix：バグ修正
+hotfix：クリティカルなバグ修正
+add：新規（ファイル）機能追加
+update：機能修正（バグではない）
+change：仕様変更
+clean：整理（リファクタリング等）
+disable：無効化（コメントアウト等）
+remove：削除（ファイル）
+upgrade：バージョンアップ
+revert：変更取り消し
