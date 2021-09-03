@@ -29,10 +29,16 @@ const Home: NextPage = () => {
           <div className={styles.headerActivity}>Activity</div>
           <div className={styles.headerHowItWorks}>How it works</div>
           <div className={styles.headerCommunuty}>Communuty</div>
-          <Button title="createボタン" />
+          {/* 作品投稿ページに遷移 */}
+          <Link href="/createTreasure">
+            <a>
+              <Button title="createボタン" message="作品投稿画面に遷移します" />
+            </a>
+          </Link>
+          {/* ウォレット接続ページに遷移 */}
           <Link href="/connectMyWallet">
             <a>
-              <Button title="ウォレットに接続" />
+              <Button title="ウォレットに接続" message="ウォレット接続画面に遷移します" />
             </a>
           </Link>
         </div>
