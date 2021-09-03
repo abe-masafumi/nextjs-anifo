@@ -29,9 +29,7 @@ const Home: NextPage = () => {
           <div className={styles.headerActivity}>Activity</div>
           <div className={styles.headerHowItWorks}>How it works</div>
           <div className={styles.headerCommunuty}>Communuty</div>
-          {/* 作品投稿ページに遷移 */}
           <Button title="createボタン" />
-          {/* ウォレット接続ページに遷移 */}
           <Button title="ウォレットに接続" />
         </div>
       </header>
