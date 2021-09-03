@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Treasure } from '../components/Treasure'
+import Link from 'next/link'
 
 import { Button } from '../components/Button'
 
@@ -29,10 +30,14 @@ const Home: NextPage = () => {
           <div className={styles.headerHowItWorks}>How it works</div>
           <div className={styles.headerCommunuty}>Communuty</div>
           <Button title="createボタン" />
-          <Button title="ウォレットに接続" />
+          <Link href="/connectMyWallet">
+            <a>
+              <Button title="ウォレットに接続" />
+            </a>
+          </Link>
         </div>
       </header>
-      
+
       {/* 作品一覧 */}
       <main className={styles.main}>
         <h1 className={styles.title}>
