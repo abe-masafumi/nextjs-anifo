@@ -30,17 +30,9 @@ const Home: NextPage = () => {
           <div className={styles.headerHowItWorks}>How it works</div>
           <div className={styles.headerCommunuty}>Communuty</div>
           {/* 作品投稿ページに遷移 */}
-          <Link href="/createTreasure">
-            <a>
-              <Button title="createボタン" message="作品投稿画面に遷移します" />
-            </a>
-          </Link>
+          <Button title="createボタン" />
           {/* ウォレット接続ページに遷移 */}
-          <Link href="/connectMyWallet">
-            <a>
-              <Button title="ウォレットに接続" message="ウォレット接続画面に遷移します" />
-            </a>
-          </Link>
+          <Button title="ウォレットに接続" />
         </div>
       </header>
 
