@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Treasure } from '../components/Treasure'
 
 import { Button } from '../components/Button'
 
@@ -27,17 +28,16 @@ const Home: NextPage = () => {
           <div className={styles.headerActivity}>Activity</div>
           <div className={styles.headerHowItWorks}>How it works</div>
           <div className={styles.headerCommunuty}>Communuty</div>
-
           <Button title="createボタン" />
           <Button title="ウォレットに接続" />
         </div>
       </header>
-
+      
+      {/* 作品一覧 */}
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.js</code>
         </p>
@@ -66,6 +66,7 @@ const Home: NextPage = () => {
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
+        <Treasure />
       </main>
 
       <footer className={styles.footer}>
